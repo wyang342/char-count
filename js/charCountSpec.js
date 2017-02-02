@@ -6,7 +6,7 @@ console.log(char.charCount("aaabbc") === {
   c : 1
 });
 
-console.log(char.charCount() === {
+console.log(char.charCount('rplyoacadawpettlleaodeeywapkniha') === {
   a : 6,
   e : 4,
   l : 3,
