@@ -11,32 +11,32 @@ There is no defined order for reporting characters that have the same number of 
 Examples:
 
   **analyze("aaabbc")**
-```ruby
+```python
 {
-  "a" => 3,
-  "b" => 2,
-  "c" => 1,
+  "a": 3,
+  "b": 2,
+  "c": 1,
 }
 ```
 
 
   **analyze("an apple a day will keep the doctor away")**
-```ruby
+```python
 {
-  "a" => 5,
-  "e" => 4,
-  "p" => 3,
-  "l" => 3,
-  "y" => 2,
-  "w" => 2,
-  "t" => 2,
-  "d" => 2,
-  "h" => 1,
-  "n" => 1,
-  "c" => 1,
-  "o" => 1,
-  "i" => 1,
-  "k" => 1,
-  "r" => 1,
+  "a": 5,
+  "e": 4,
+  "p": 3,
+  "l": 3,
+  "y": 2,
+  "w": 2,
+  "t": 2,
+  "d": 2,
+  "h": 1,
+  "n": 1,
+  "c": 1,
+  "o": 1,
+  "i": 1,
+  "k": 1,
+  "r": 1,
 }
 ```
