@@ -1,3 +1,5 @@
+// Can you translate this driver code to unit tests?
+
 var char = require("./charCount");
 
 console.log(char.charCount("aaabbc")['a'] === 3)
